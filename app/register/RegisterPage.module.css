@@ -1,0 +1,123 @@
+/* ===== Layout background ===== */
+.pageWrapper {
+  height: 100vh;
+  display: flex;
+  background: radial-gradient(circle at 50% 0%, rgba(109,46,195,0.25), transparent 60%),
+    linear-gradient(90deg, rgba(255,60,150,0.08), rgba(109,46,195,0.08)),
+    #0a0a14;
+}
+
+/* ==== Form Card ===== */
+.registerCard {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.35);
+}
+
+/* ===== Title Styling ===== */
+.logoTitle {
+  font-weight: 700;
+  font-size: 20px;
+  background: linear-gradient(200deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/* ===== Input Label Gradient ===== */
+.labelGradient {
+  background: linear-gradient(90deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+/* ===== Input Field ===== */
+.inputField {
+  background: rgba(255,255,255,0.08);
+  color: white;
+  border: 2px solid #D36BFF;
+  border-radius: 50px !important;
+  transition: 0.25s;
+}
+
+.inputField::placeholder {
+  color: rgba(255,255,255,0.45);
+}
+
+.inputField:hover {
+  border-color: #D36BFF;
+}
+
+.inputField:focus,
+:global(.mantine-PasswordInput-input:focus) {
+  border-color: #FF52FF !important;
+  box-shadow: 0 0 10px #D36BFF !important;
+}
+
+/* ===== Checkbox Row ===== */
+.formRow {
+  display: flex;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+/* Checkbox Label */
+.checkboxText {
+  color: white;
+}
+
+/* ===== Buttons ===== */
+.primaryButton {
+  background: linear-gradient(90deg, #ff4d5a, #b721ff);
+  color: white;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: all 0.25s ease;
+  box-shadow: 0 0 18px rgba(183, 33, 255, 0.25);
+}
+
+.primaryButton:hover {
+  box-shadow: 0 0 28px rgba(183, 33, 255, 0.6);
+  transform: translateY(-3px);
+}
+
+/* ===== Links ===== */
+.link {
+  font-weight: 700;
+  background: linear-gradient(90deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.link:hover {
+  filter: drop-shadow(0 0 6px #b721ff);
+}
+
+/* Checkbox Custom UI */
+.checkboxInput {
+  border: 2px solid #b721ff !important;
+  background: transparent;
+  transition: 0.25s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.checkboxInput:hover {
+  border-color: #d36bff !important;
+}
+
+.checkboxInput:checked {
+  background: #b721ff !important;
+  border-color: #b721ff !important;
+}
+
+.checkboxIcon {
+  color: white !important;
+}
+

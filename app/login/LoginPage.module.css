@@ -1,0 +1,142 @@
+/* ===== Layout background ===== */
+.pageWrapper {
+  height: 100vh;
+  display: flex;
+  background: radial-gradient(circle at 50% 0%, rgba(109, 46, 195, 0.25), transparent 60%),
+    linear-gradient(90deg, rgba(255, 60, 150, 0.08), rgba(109, 46, 195, 0.08)),
+    #0a0a14;
+}
+
+/* ==== Form Card ===== */
+.loginCard {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.35);
+}
+
+/* ===== Title Styling ===== */
+.logoTitle {
+  font-weight: 700;
+  font-size: 20px;
+  background: linear-gradient(200deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/* ===== Gradient Text Links ===== */
+.gradientLink {
+  cursor: pointer;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.25s;
+}
+
+.gradientLink:hover {
+  filter: drop-shadow(0 0 6px #b721ff);
+}
+
+/* ===== Buttons ===== */
+.primaryButton {
+  background: linear-gradient(90deg, #ff4d5a, #b721ff);
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 18px rgba(183, 33, 255, 0.25);
+}
+
+.primaryButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 28px rgba(183, 33, 255, 0.6);
+}
+
+.googleButton {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e8e5ff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: 0.25s;
+}
+
+.googleButton:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.labelGradient {
+  background: linear-gradient(90deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.inputField {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border: 2px solid #D36BFF;
+  transition: 0.25s;
+  border-radius: 50px !important;
+}
+
+.inputField::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* hover */
+.inputField:hover {
+  border-color: #D36BFF;
+}
+
+/* focus */
+.inputField:focus {
+  border-color: #FF52FF;
+  box-shadow: 0 0 10px #D36BFF;
+}
+
+/* text cursor color */
+.inputField:focus-visible {
+  outline: none;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Checkbox label */
+.checkboxLabel {
+  background: linear-gradient(90deg, #ffffff, #b721ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+/* Checkbox Custom UI */
+.checkboxInput {
+  border: 2px solid #b721ff !important;
+  background: transparent;
+  transition: 0.25s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.checkboxInput:hover {
+  border-color: #d36bff !important;
+}
+
+.checkboxInput:checked {
+  background: #b721ff !important;
+  border-color: #b721ff !important;
+}
+
+.checkboxIcon {
+  color: white !important;
+}
+

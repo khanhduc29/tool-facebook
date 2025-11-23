@@ -1,0 +1,71 @@
+.topbar {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button mua gói */
+.primaryButton {
+  background: linear-gradient(90deg, #FF4D5A, #B721FF);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: 0.25s;
+  box-shadow: 0 0 18px rgba(183, 33, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.primaryButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 28px rgba(183, 33, 255, 0.6);
+}
+
+.menuDropdown {
+  background: #0A0A14 !important;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.menuItem {
+  color: white !important;
+}
+
+.menuItem:hover {
+  background: rgba(183, 33, 255, 0.15) !important;
+}
+
+.logout {
+  color: #ff4d4d !important;
+}
+
+/* Icon styling */
+.icon {
+  color: #B721FF;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  filter: drop-shadow(0 0 6px #B721FF);
+}
+
+.proBadge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #f7b733, #fc4a1a);
+  color: white;
+  font-size: 12px;
+  box-shadow: 0 0 10px rgba(247, 183, 51, 0.6);
+  border: 1px solid rgba(255,255,255,0.2);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.proBadge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(247, 183, 51, 0.9);
+}
+
