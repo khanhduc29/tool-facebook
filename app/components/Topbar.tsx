@@ -62,7 +62,8 @@ export default function Topbar() {
 
             <Menu.Item
               className={styles.logout}
-              onClick={() => setConfirmLogoutOpen(true)}
+              // onClick={() => setConfirmLogoutOpen(true)}
+              onClick={() => router.replace("/login")}
             >
               Đăng xuất
             </Menu.Item>

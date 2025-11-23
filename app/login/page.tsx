@@ -24,6 +24,10 @@ export default function LoginPage() {
 
   const isSmallScreen = useMediaQuery("(max-width: 768px)");
 
+  const handleLogin = () => {
+    router.push("/pages/scan-users");
+  }
+
   return (
     <div className={styles.pageWrapper}>
       {!isSmallScreen && (
@@ -101,7 +105,7 @@ export default function LoginPage() {
               </Text>
             </Group>
 
-            <Button fullWidth radius={50} className={styles.primaryButton}>
+            <Button fullWidth radius={50} className={styles.primaryButton} onClick={handleLogin}>
               Sign in
             </Button>
 
