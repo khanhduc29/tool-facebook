@@ -48,7 +48,7 @@ export default function RegisterPage() {
       >
         <Card padding="xl" className={styles.registerCard}>
           <div style={{ textAlign: "center", marginBottom: 16 }}>
-            <img src="/scapbot-favicon.webp" height="50" />
+            <img src="/scapbot-favicon.png" height="50" />
             <div className={styles.logoTitle}>
               Create Account Facebook Socialking
             </div>

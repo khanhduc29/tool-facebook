@@ -82,8 +82,8 @@ export const JobConfig: Record<string, JobDefinition> = {
                 required: false,
                 options: [
                     { label: "Mọi người", value: "all" },
-                    { label: "Bạn bà của tôi", value: "my_friends" },
-                    { label: "Bạn bè của bạn bè", value: "friends_of_friends" },
+                    { label: "Bạn bà của tôi", value: "users_friends" },
+                    { label: "Bạn bè của bạn bè", value: "users_friends_of_friends" },
                 ],
             },
             {
@@ -362,7 +362,7 @@ export const JobConfig: Record<string, JobDefinition> = {
                     { label: "Thương hiệu hoặc sản phẩm", value: "brand_or_product" },
                     { label: "Nghệ sĩ, ban nhạc hoặc người của công chúng", value: "artist_band_or_public_figure" },
                     { label: "Giải trí", value: "entertainment" },
-                    { label: "Hoạt động công cộng", value: "cause_or_community" },
+                    { label: "Hoạt động công cộng", value: "community_activity" },
                 ],
             },
         ],

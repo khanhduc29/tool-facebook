@@ -47,7 +47,7 @@ export default function LoginPage() {
           {/* Logo + title */}
           <div style={{ textAlign: "center", marginBottom: 16 }}>
             <img
-              src="/scapbot-favicon.webp"
+              src="/scapbot-favicon.png"
               alt="Logo"
               style={{ height: 50, margin: "0 auto 8px" }}
             />

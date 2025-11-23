@@ -44,7 +44,7 @@ export default function Header() {
             }}
           >
             <Image
-              src="/scapbot-favicon.webp"
+              src="/scapbot-favicon.png"
               alt="SCAPBOT Logo"
               width={40}
               height={40}
